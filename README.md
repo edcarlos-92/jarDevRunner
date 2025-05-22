@@ -113,4 +113,4 @@ This is because ideally the jarDevRunner.jar is built to the build folder of the
 
 Finally: Please feel free to re-innovate this and share with us if you think we can make it work in a better way. 
 
-Please let me know if you run into any painful challenges. Thank you.
+Kindly let me know if you run into any painful challenges. Thank you.
