@@ -92,6 +92,8 @@ Each project must have its own run script:
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
    ```
 
+4. The main application logic and entry point is located in `src/main/java/com/devrunner/app/DevRunner.java`
+
 ## Customizing
 
 You can modify `project_paths.json` directly or use the GUI to change project paths. Default paths are:
@@ -109,6 +111,6 @@ This is because ideally the jarDevRunner.jar is built to the build folder of the
 3. **Long Paths on Windows**: Enable long paths in Windows settings if needed
 4. **Missing Dependencies**: Install required tools for each project type first those that has been provided in the original run files will automatically be installed if there is any such provision.
 
-Finally: Please feel free to re-innovate this and share with us if you think we can make it work in a better way.
+Finally: Please feel free to re-innovate this and share with us if you think we can make it work in a better way. 
 
 Thank you.
