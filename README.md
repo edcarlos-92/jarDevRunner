@@ -22,7 +22,7 @@ This tool provides a graphical interface to run your Game Engine Development cou
 
 ## Quick Start
 
-1. Copy `jarDevRunner.jar` to your course workspace root directory (where all your project folders are) from `build/libs/jarDevRunner.jar`
+1. Copy `jarDevRunner.jar` to your course lesson workspace root directory (where all your project folders are) from `build/libs/jarDevRunner.jar`
 2. Double-click the JAR file or run:
    ```
    java -jar jarDevRunner.jar
