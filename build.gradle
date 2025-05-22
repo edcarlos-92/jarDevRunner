@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.json:json:20231013'
+}
+
+application {
+    mainClass = 'com.devrunner.app.DevRunner'
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.devrunner.app.DevRunner'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}

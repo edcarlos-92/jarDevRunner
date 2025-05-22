@@ -1,0 +1,6 @@
+{
+    "cpp": "../starterCPP",
+    "python": "../Python",
+    "java": "../Java",
+    "typescript": "../starterTS"
+}
